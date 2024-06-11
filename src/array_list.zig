@@ -22,5 +22,5 @@ pub fn execute() !void {
         sum += i;
     }
 
-    std.debug.print("Sum: {}\n", .{sum});
+    std.debug.print("{}\n", .{sum});
 }
